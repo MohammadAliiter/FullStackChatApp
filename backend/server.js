@@ -21,7 +21,7 @@ app.use(cookieParser());
 // Middleware setup
 app.use(cookieParser());
 app.use(cors({
-    origin: "http://localhost:3000", 
+    origin: "https://full-stack-chat-app-nu.vercel.app", 
     credentials: true 
 }));
 
