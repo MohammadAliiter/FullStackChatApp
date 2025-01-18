@@ -7,7 +7,7 @@ const app = express();
 const server = http.createServer(app);
 const io = new Server(server, {
 	cors: {
-		origin: ["https://full-stack-chat-app-nu.vercel.app"],
+		origin: ["*"],
 		methods: ["GET", "POST"],
 	},
 });
